@@ -4,10 +4,10 @@ Smart Escape is a frontend-only evacuation route simulator built to satisfy the 
 
 ## Live URL
 
-Use the GitHub Pages URL format below after pushing the repo:
+The app will be published at:
 
 ```text
-https://<your-github-username>.github.io/devfest-<registration-number>/
+https://samiulislam56.github.io/Md.Samiul-Islam_242-16-009/
 ```
 
 If you deploy to Vercel or Netlify, the production site can instead use the platform-generated HTTPS domain.
@@ -39,14 +39,14 @@ npm run build
 
 ## GitHub Pages deployment
 
-1. Push this project to a public GitHub repository named `devfest-<registration-number>`.
+1. Push this project to the public repository [Md.Samiul-Islam_242-16-009](https://github.com/samiulislam56/Md.Samiul-Islam_242-16-009).
 2. In GitHub, open the repository and enable GitHub Pages.
 3. Select the GitHub Actions deployment method.
 4. Commit the included workflow in `.github/workflows/deploy.yml`.
 5. The site will be published at:
 
 ```text
-https://<your-github-username>.github.io/devfest-<registration-number>/
+https://samiulislam56.github.io/Md.Samiul-Islam_242-16-009/
 ```
 
 ## Project Structure
