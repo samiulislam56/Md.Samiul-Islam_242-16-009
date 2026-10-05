@@ -1,0 +1,27 @@
+{
+  "building": "Smart Escape Demo",
+  "nodes": [
+    { "id": "R1", "label": "R1", "type": "room", "x": 20, "y": 62 },
+    { "id": "R2", "label": "R2", "type": "room", "x": 80, "y": 18 },
+    { "id": "C1", "label": "C1", "type": "junction", "x": 36, "y": 50 },
+    { "id": "C2", "label": "C2", "type": "junction", "x": 48, "y": 36 },
+    { "id": "C3", "label": "C3", "type": "junction", "x": 62, "y": 46 },
+    { "id": "C4", "label": "C4", "type": "junction", "x": 76, "y": 36 },
+    { "id": "E1", "label": "E1", "type": "exit", "x": 58, "y": 18 },
+    { "id": "E2", "label": "E2", "type": "exit", "x": 88, "y": 56 }
+  ],
+  "edges": [
+    { "id": "e1", "from": "R1", "to": "C1", "cost": 1 },
+    { "id": "e2", "from": "C1", "to": "C2", "cost": 2 },
+    { "id": "e3", "from": "C2", "to": "E1", "cost": 4 },
+    { "id": "e4", "from": "C1", "to": "C3", "cost": 4 },
+    { "id": "e5", "from": "C3", "to": "C4", "cost": 1 },
+    { "id": "e6", "from": "C4", "to": "E2", "cost": 5 },
+    { "id": "e7", "from": "R2", "to": "C3", "cost": 1 }
+  ],
+  "initial_state": {
+    "blocked_nodes": [],
+    "blocked_edges": [],
+    "closed_exits": []
+  }
+}
